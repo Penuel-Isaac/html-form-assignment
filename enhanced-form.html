@@ -1,0 +1,94 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Enhanced HTML5 Form</title>
+</head>
+<body>
+  <header>
+    <h1>Tech Skills Bootcamp</h1>
+  </header>
+
+  <section>
+    <h2>Skills You'll Learn</h2>
+    <ol>
+      <li>HTML5 & CSS3</li>
+      <li>JavaScript Basics</li>
+      <li>Data Analysis</li>
+      <li>Responsive Design</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Course Schedule</h2>
+    <table border="1">
+      <tr>
+        <th>Day</th>
+        <th>Topic</th>
+      </tr>
+      <tr>
+        <td>Monday</td>
+        <td>HTML & CSS</td>
+      </tr>
+      <tr>
+        <td>Wednesday</td>
+        <td>JavaScript</td>
+      </tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>Promo Video</h2>
+    <video controls width="320">
+      <source src="sample-video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <section>
+    <h2>Registration Form</h2>
+    <form>
+      <fieldset>
+        <legend>Personal Info</legend>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" required placeholder="Your full name"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required placeholder="you@example.com" autocomplete="on"><br><br>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" pattern="[0-9]{10}" placeholder="10-digit phone" required><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" required><br><br>
+
+        <label for="refcode">Referral Code (readonly):</label>
+        <input type="text" id="refcode" value="STUDENT25" readonly><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male" required> Male
+        <input type="radio" name="gender" value="female"> Female<br><br>
+
+        <label for="course">Choose Course:</label>
+        <select id="course" required>
+          <option value="">--Select--</option>
+          <option value="html">HTML</option>
+          <option value="js">JavaScript</option>
+        </select><br><br>
+
+        <label for="comments">Any Comments?</label><br>
+        <textarea id="comments" rows="4" cols="30" placeholder="Your message..."></textarea><br><br>
+
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Tech Bootcamp</p>
+  </footer>
+</body>
+</html>
+```
